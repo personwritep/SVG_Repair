@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name        SVG Repair ⭐
 // @namespace        http://tampermonkey.net/
-// @version        0.7
+// @version        0.8
 // @description        「svg画像」のリンクアイコンを自動でテキストに置換え
 // @author        Ameba Blog User
-// @match        https://blog.ameba.jp/ucs/entry/srventry*
-// @exclude        https://blog.ameba.jp/ucs/entry/srventrylist.do*
+// @match        https://blog.ameba.jp/ucs/entry/srventryinsertinput.do*
+// @match        https://blog.ameba.jp/ucs/entry/srventryupdateinput.do*
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=ameba.jp
 // @grant        none
 // @updateURL        https://github.com/personwritep/SVG_Repair/raw/main/SVG_Repair.user.js
@@ -138,6 +138,3 @@ function main(){
         }}
 
 } // main()
-
-
-
